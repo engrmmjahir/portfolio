@@ -1,7 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #header-top {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+#top-banner {
+    display: flex;
+}
+
 .first-header {
     width: 50%;
+    margin: 50px;
+    padding: 0px 50px;
+    /* border: 1px solid red; */
+}
+
+.first-header h1 {
+    font-size: 50px;
+}
+
+.first-header span {
+    color: orange;
+}
+
+.first-header a {
+    text-decoration: none;
+    background-color: orange;
+    padding: 7px 18px;
+    border-radius: 7px;
+}
+
+.first-header a:hover {
+    background-color: tomato;
+    font-size: 30px;
 }
 
 .second-header {
     width: 50%;
+    /* border: 1px solid red; */
+}
+
+.second-header img {
+    width: 80%;
+}
+
+#exp-card {
+    display: flex;
+}
+
+.exp-section {
+    width: 50%;
+}
+
+footer p {
+    text-align: center;
 }
