@@ -36,7 +36,7 @@ body {
 
 .first-header a:hover {
     background-color: tomato;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
 .second-header {
@@ -58,4 +58,16 @@ body {
 
 footer p {
     text-align: center;
+}
+
+.dream-big {
+    color: orange;
+}
+
+.para {
+    background-color: orange;
+}
+
+.para span {
+    background-color: yellow;
 }
